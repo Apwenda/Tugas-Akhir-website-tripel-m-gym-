@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-tripel-m-gym.css">
+    <title>Halaman Artikel dan Nutrisi</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #ffc107;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            flex: 1;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            text-decoration: none;
+            color: #ffc107;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .logo-img {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .card {
+            background-color: #b3b4b4;
+            color: #ffc107;
+            border: 1px solid #ffc107;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .btn-primary {
+            background-color: #ffc107;
+            border-color: #ffc107;
+            color: black;
+        }
+        .btn-primary:focus {
+            outline: none;
+            box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+        }
+        .btn-primary:hover {
+            background-color: #e0a800;
+            border-color: #e0a800;
+        }
+        
+        .btn-whatsapp {
+            background-color: #25d366;
+            color: white;
+            border: none;
+        }
+        .btn-whatsapp:hover {
+            background-color: #1ebe57;
+        }
+        
+
+        footer {
+            background-color: #111;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+        }
+
+        .card {
+            background-color: #212529;
+            color: #ffc107;
+            border: 1px solid #ffc107;
+            transition: transform 0.3s ease-in-out;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+    
+        .card:hover {
+            transform: scale(1.05);
+        }
+    
+        .card-img-top {
+            height: 200px; /* Menyamakan tinggi gambar */
+            object-fit: cover; /* Agar gambar tidak terdistorsi */
+        }
+    
+        .card-body {
+            flex-grow: 1; /* Memungkinkan konten berkembang untuk mengisi ruang */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    
+        .btn-whatsapp {
+            background-color: #25d366;
+            color: white;
+            border: none;
+            margin-top: auto; /* Menekan tombol ke bawah */
+        }
+    
+        .btn-whatsapp:hover {
+            background-color: #1ebe57;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header-area header-sticky py-3 bg-dark">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="index.html" class="logo">
+                <img src="assets/images/Logo_TripleGym.jpg" class="logo-img" alt="Triple Gym"> 
+                Tripel M <em>Gym</em>
+            </a>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <h2 class="fw-bolder text-center mb-4">Artikel Nutrisi & Minuman Sehat</h2>
+        
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="assets/images/protein shake.jpeg" class="card-img-top" alt="Protein Shake">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Kenapa Kamu Butuh Protein Shake Setelah Gym?</h5>
+                        <p class="text-light">Protein shake membantu pemulihan otot dan meningkatkan performa latihan...</p>
+                        <a href="https://www.alodokter.com/seputar-protein-shake-manfaat-dan-keamanannya-bagi-tubuh?utm_source=chatgpt.com" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="assets/images/munuman sehat.jpeg" class="card-img-top" alt="Minuman Sehat">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Rekomendasi Minuman Sehat di Tripel M Gym</h5>
+                        <p class="text-light">Minuman bernutrisi yang bisa kamu coba setelah latihan untuk hasil optimal...</p>
+                        <a href="https://hellosehat.com/nutrisi/gizi-olahraga/minuman-setelah-olahraga/?utm_source=chatgpt.com" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="assets/images/air putih.jpeg" class="card-img-top" alt="Hidrasi Setelah Latihan">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Pentingnya Hidrasi Setelah Latihan</h5>
+                        <p class="text-light">Menjaga cairan tubuh setelah latihan sangat penting untuk pemulihan optimal...</p>
+                        <a href="https://ruangbimbel.co.id/pentingnya-hidrasi-setelah-berolahraga/?utm_source=chatgpt.com" class="btn btn-primary" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="fw-bolder text-center mb-4">Minuman Bernutrisi</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card text-center">
+                    <img src="assets/images/Smoothie protein.jpeg" class="card-img-top" alt="Smoothie Protein">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Smoothie Protein</h5>
+                        <p class="text-light">Minuman segar dengan campuran protein whey dan buah alami.</p>
+                        <span class="badge bg-warning text-dark">Rp 35.000</span>
+                        <a href="https://wa.me/6282199731441" target="_blank" class="btn btn-whatsapp mt-2"><i class="fab fa-whatsapp"></i> Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card text-center">
+                    <img src="assets/images/jus detox.jpeg" class="card-img-top" alt="Jus Detox">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Jus Detox</h5>
+                        <p class="text-light">Kombinasi buah dan sayur untuk menyegarkan tubuh setelah latihan.</p>
+                        <span class="badge bg-warning text-dark">Rp 30.000</span>
+                        <a href="https://wa.me/6282199731441" target="_blank" class="btn btn-whatsapp mt-2"><i class="fab fa-whatsapp"></i> Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card text-center">
+                    <img src="assets/images/Whey protein.jpeg" class="card-img-top" alt="Minuman Energi">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Minuman Energi</h5>
+                        <p class="text-light">Tambahan energi instan untuk meningkatkan performa latihan.</p>
+                        <span class="badge bg-warning text-dark">Rp 40.000</span>
+                        <a href="https://wa.me/6282199731441" target="_blank" class="btn btn-whatsapp mt-2"><i class="fab fa-whatsapp"></i> Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Tripel M Gym. Designed & Developed by Deni Wenda. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

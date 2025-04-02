@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <title> Website Tripel M Gym</title>
+    <style>
+    .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Memberi jarak antara logo dan teks */
+    text-decoration: none;
+}
+
+/* Ukuran logo utama (lebih besar tetap bulat) */
+.logo-img {
+    height: 100px; /* Ukuran lebih besar */
+    width: 100px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Logo alternatif jika diperlukan ukuran lebih besar */
+.logos-img {
+    height: 130px; 
+    width: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Responsif: Ubah ukuran logo pada layar kecil */
+@media (max-width: 768px) {
+    .logo-img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .logos-img {
+        height: 130px;
+        width: 130px;
+    }
+
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgb(255, 213, 0);
+}
+.gy-5 {
+    row-gap: 30px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+    </style>
+
+    <!--
+
+    TemplateMo 548 Training Studio
+
+    https://templatemo.com/tm-548-training-studio
+
+    -->
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/templatemo-tripel-m-gym.css">
+
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+     <!-- burger start -->
+     <a class="menu-trigger" id="burger-menu">
+        <div class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </a>
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav d-flex align-items-center justify-content-between">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo d-flex align-items-center">
+                            <img src="assets/images/Logo_TripleGym.jpg" class="logo-img"> 
+                            <span class="logo-text ms-2">Tripel M<em> Gym</em></span>
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav nav d-flex justify-content-center flex-grow-1">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#about">About Us</a></li>
+                            <li class="scroll-to-section"><a href="#our-programs">Our Program</a></li>
+                            <li class="scroll-to-section"><a href="#testimonials">Testimonial</a></li>
+                            <li class="scroll-to-section"><a href="#trainers">Trainer</a></li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li> 
+                            <li class="main-button">
+                                <a href="https://wa.me/6282199731441" target="_blank" class="btn btn-warning">
+                                    <i class="fab fa-whatsapp fa-2x"></i>
+                                </a>
+                            </li>                            
+                        </ul>        
+                        <a class="menu-trigger">
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Main Banner Area Start ***** -->
+<section class="section" id="main-view">
+    <div class="main-banner" id="top" 
+    style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('assets/images/tempatgym.jpg') no-repeat center center/cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="images-overlay header-text">
+                        <div class="caption">
+                            <h2><em>Strong</em> Every Day Healthy for  <em>Life</em></h2>
+                            <h6 class="mb-3">easy with our <em>gym</em></h6>
+                            <div class="main-button scroll-to-section">
+                                <a href="https://wa.me/6282199731441" target="_blank" class="btn btn-warning me-3">Become a member</a>
+                                <a href="#our-programs" class="btn btn-warning me-5">get started now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** Features Item Start ***** -->
+    <section class="section text-center" id="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-11"> <!-- Lebar lebih besar untuk tampilan lebih luas -->
+                    <div class="section-heading">
+                        <img src="assets/images/Logo_TripleGym.jpg" class="logos-img mb-3">
+                        <h2 class="fw-bolder text-white mb-4">About Us_<em>Tripel M Gym</em></h2>
+                        <p class="mb-3 text-white">Selamat datang di Tripel M Gym, satah satu Tempat kebugaran di Waena, Jayapura! Kami hadir untuk membantu Anda mencapai tujuan kebugaran dengan fasilitas lengkap, peralatan modern, dan suasana yang mendukung.</p>
+    
+                        <p class="mb-3 text-white">Di Tripel M Gym, kami percaya bahwa kesehatan dan kebugaran adalah investasi terbaik untuk masa depan. Dengan pelatih profesional yang siap membimbing Anda, kami menawarkan berbagai program latihan, mulai dari weightlifting, cardio, hingga Program kebugaran yang dirancang untuk semua level, dari pemula hingga atlet berpengalaman. Kami berkomitmen untuk menciptakan lingkungan yang nyaman dan inspiratif bagi setiap anggota.</p>
+                        
+                        <p class="mb-3 text-white">Apakah Anda ingin membangun otot, menurunkan berat badan, atau meningkatkan daya tahan tubuh? Kami siap membantu Anda meraih hasil yang maksimal. 
+                            <a href="https://wa.me/6282199731441" target="blank" class="text-white">Bergabunglah dengan komunitas kami</a> dan mulai perjalanan kebugaran Anda bersama Tripel M Gym. Karena di sini, setiap langkah menuju kesehatan lebih baik dimulai!</p>
+
+                            <div class="row justify-content-center mt-2">
+                                <div class="col-lg-8">
+                                    <h3 class="fw-bold text-white mb-2">Visi <em class="text-warning">&</em> Misi</h3>
+                                    <p class="text-white">Menjadi pusat kebugaran terdepan yang mendorong gaya hidup sehat dan aktif bagi semua kalangan.</p>
+                                    <p  class="mb-4 text-white">Kami berkomitmen untuk menyediakan fasilitas kebugaran yang lengkap dan berkualitas, memastikan setiap anggota mendapatkan akses ke peralatan dan lingkungan terbaik. Selain itu, kami menawarkan program latihan yang efektif dan disesuaikan dengan kebutuhan individu, sehingga setiap orang dapat mencapai tujuan kebugarannya secara optimal.</p>
+
+                                    <div class="container text-center mb-4">
+                                        <h2 class="fw-bold text-white">Fasilitas_<span class="text-warning">Tripel M Gym</span></h2>
+                                        <p class="mt-3 text-white">Kami menyediakan berbagai fasilitas terbaik untuk mendukung perjalanan kebugaran Anda.</p>
+                                    </div>
+                                </div><div class="row mt-5 mb-5">
+                                    <div class="col-lg-12">
+                                        <div class="row gx-5 gy-5">
+                                            <!-- Fasilitas 1: Area Gym Lengkap -->
+                                            <div class="col-md-4 d-flex justify-content-center">
+                                                <div class="card bg-dark text-white text-center p-4 h-100 w-100">
+                                                    <img src="assets/images/fsgym6.jpg" class="card-img-top" alt="Area Gym Lengkap">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title text-warning">Area Gym Lengkap</h5>
+                                                        <p class="text-white">Dilengkapi dengan berbagai alat gym modern untuk latihan yang maksimal.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- Fasilitas 2: Kolam Renang -->
+                                            <div class="col-md-4 d-flex justify-content-center">
+                                                <div class="card bg-dark text-white text-center p-4 h-100 w-100">
+                                                    <img src="assets/images/kolam renang2.jpg" class="card-img-top" alt="Kolam Renang">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title text-warning">Kolam Renang</h5>
+                                                        <p class="text-white">Kolam renang bersih dan nyaman untuk relaksasi dan olahraga air.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- Fasilitas 3: Homestay -->
+                                            <div class="col-md-4 d-flex justify-content-center">
+                                                <div class="card bg-dark text-white text-center p-4 h-100 w-100">
+                                                    <img src="assets/images/homestay.jpg" class="card-img-top" alt="Homestay">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title text-warning">Homestay</h5>
+                                                        <p class="text-white">Tempat menginap nyaman dengan fasilitas lengkap untuk para pengunjung.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- Fasilitas 4: Tempat Santai Outdoor -->
+                                            <div class="col-md-4 d-flex justify-content-center">
+                                                <div class="card bg-dark text-white text-center p-4 h-100 w-100">
+                                                    <img src="assets/images/outdoor.jpg" class="card-img-top" alt="Tempat Santai Outdoor">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title text-warning">Tempat Santai Outdoor</h5>
+                                                        <p class="text-white">Area terbuka hijau untuk bersantai dan menikmati udara segar.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- Fasilitas 5: Ruang Ganti -->
+                                            <div class="col-md-4 d-flex justify-content-center">
+                                                <div class="card bg-dark text-white text-center p-4 h-100 w-100">
+                                                    <img src="assets/images/tempatganti.jpg" class="card-img-top" alt="Ruang Ganti">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title text-warning">Ruang Ganti & Toilet</h5>
+                                                        <p class="text-white">Ruang ganti yang bersih dan nyaman dengan fasilitas loker.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- Fasilitas 6: Tempat Pendingin Air -->
+                                            <div class="col-md-4 d-flex justify-content-center">
+                                                <div class="card bg-dark text-white text-center p-4 h-100 w-100">
+                                                    <img src="assets/images/pendingin.jpeg" class="card-img-top" alt="Tempat Pendingin Air">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title text-warning">Tempat Pendingin Air</h5>
+                                                        <p class="text-white">Fasilitas air minum dingin yang tersedia untuk menjaga hidrasi.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- Fasilitas 7: Tempat Parkir Luas -->
+                                            <div class="col-md-4 d-flex justify-content-center mx-auto">
+                                                <div class="card bg-dark text-white text-center p-4 h-100 w-100">
+                                                    <img src="assets/images/parkir logo.png" class="card-img-top" alt="Tempat Parkir Luas">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title text-warning">Tempat Parkir Luas</h5>
+                                                        <p class="text-white">Area parkir luas untuk mobil dan motor dengan keamanan terjamin.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                            <p><span class="fw-bold fs-2 text-white mb-3"><em>Tripel M Gym –</em> Stronger Every Day!</span></p>                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>           
+    <!-- ***** Call to Action Start ***** -->
+    <section class="section" id="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="cta-content">
+                        <h2>Don’t <em>procrastinate</em>, do it  <em>Now</em>!</h2>
+                        <p>"Jangan Tunggu Waktu yang Tepat, karena Waktu Terbaik untuk Memulai Adalah Sekarang"</p>
+                        <div class="main-button scroll-to-section">
+                            <a href="https://wa.me/6282199731441" target="_blank " class="btn btn-warning me-5">Become a member</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Call to Action End ***** -->
+
+    <!-- ***** Our programs Start ***** -->
+    <section class="section" id="our-programs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2 class="text-white">Our_<em>programs</em></h2>
+                        <img src="assets/images/line-dec.png" alt="">
+                        <p  class="text-white">Tripel Gym menawarkan berbagai program latihan yang dirancang untuk membantu Anda mencapai tujuan fitness dengan optimal. Dari <strong>Strength Training </strong>untuk membangun otot, <strong>Cardio Workouts</strong> untuk meningkatkan daya tahan, hingga <strong>HIIT (High-Intensity Interval Training)</strong> untuk pembakaran lemak maksimal. Kami juga menyediakan latihan sesuai permintaan atau kebutuhan pelanggan kami.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="tabs">
+              <div class="col-lg-4">
+                <ul>
+                  <li><a href="#tabs-1"><img src="assets/images/tabs-first-icon.png" alt="">Strength Training</a></li>
+                  <li><a href="#tabs-2"><img src="assets/images/tabs-first-icon.png" alt="">Cardio</a></li>
+                  <li><a href="#tabs-3"><img src="assets/images/tabs-first-icon.png" alt="">HIIT(High-Intensity Interval Training)</a></li>
+                  <li><a href="#tabs-4"><img src="assets/images/tabs-first-icon.png" alt="">Fungsional & Atletik</a></li>
+                  <div class="main-rounded-button"><a href="https://wa.me/6282199731441" target="_blank">Join Now</a></div>
+                </ul>
+              </div>
+              <div class="col-lg-8">
+                <section class="tabs-content">
+                  <article id="tabs-1">
+                    <img src="assets/images/training-image-01.jpg" alt="First Class">
+                    <h4 class="text-white">Latihan Kekuatan (Strength Training)</h4>
+                    <p class="text-white"><strong class="text-warning">Fokus:</strong> Meningkatkan kekuatan dan massa otot. Latihan Beban (Weight Lifting): Squat, Deadlift, Bench Press, Shoulder Press.
+                        Bodyweight Training: Push-up, Pull-up, Dips.
+                        Functional Training: Kettlebell Swings, TRX, Battle Rope.</p>
+                    <div class="main-rounded-button">
+                        <a href="article&nutrisi.html" class="fw-bold" target="_blank">Baca article dan Pilihan suplemen untuk mendukung program kebugaran Anda!</a>
+                    </div>
+                  </article>
+                  <article id="tabs-2">
+                    <img src="assets/images/training-image-02.jpg" alt="Second Training">
+                    <h4 class="text-white">Latihan Kardiovaskular (Cardio)</h4>
+                    <p class="text-white"><strong class="text-warning">Fokus: </strong>Meningkatkan daya tahan jantung dan membakar kalori.
+                        Lari / Treadmill
+                        Bersepeda / Spinning
+                        Skipping (Lompat Tali)
+                        Rowing Machine (Mesin Dayung).</p>
+                    <div class="main-rounded-button">
+                        <a href="article&nutrisi.html" class="fw-bold" target="_blank">Baca article dan Pilihan suplemen untuk mendukung program kebugaran Anda!</a>
+                    </div>
+                  </article>
+                  <article id="tabs-3">
+                    <img src="assets/images/training-image-03.jpg" alt="Third Class">
+                    <h4 class="text-white">Latihan HIIT (High-Intensity Interval Training)</h4>
+                    <p class="text-white"><strong class="text-warning">Fokus: </strong> Pembakaran lemak lebih efektif dalam waktu singkat.
+                        Kombinasi sprint, burpees, jumping squat, dan plank dalam interval waktu singkat.</p>
+                    <div class="main-rounded-button">
+                        <a href="article&nutrisi.html" class="fw-bold" target="_blank">Baca article dan Pilihan suplemen untuk mendukung program kebugaran Anda!</a>
+                    </div>
+                  </article>
+                  <article id="tabs-4">
+                    <img src="assets/images/training-image-04.jpg" alt="Fourth Training">
+                    <h4 class="text-white">Latihan Fungsional & Atletik</h4>
+                    <p class="text-white"><strong class="text-warning">Fokus: </strong> Meningkatkan performa tubuh secara keseluruhan.
+                        CrossFit Calisthenics (Latihan dengan Berat Badan Sendiri)
+                        Agility Drills (Latihan Kelincahan & Kecepatan)</p>
+                    <div class="main-rounded-button">
+                        <a href="article&nutrisi.html" class="fw-bold" target="_blank">Baca article dan Pilihan suplemen untuk mendukung program kebugaran Anda!</a>
+                    </div>
+                  </article>
+                </section>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Our programs End ***** -->
+    <!-- ***** Testinonials Start ***** -->
+    <section class="section" id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading dark-bg">
+                        <h2>Customer_<em>Testimonials</em></h2>
+                        <img src="assets/images/line-dec.png" alt="">
+                        <p>Berikut ini merupakan testimoni pelanggan kami, yang berhasil mencapai tujuan mereka bersama kami!</p>
+                    </div>
+                </div>
+            </div>
+            <section id="testimoni">
+                <div class="container text-center">
+                    <h2 class="fw-bold text-light">Apa Kata Mereka?</h2>
+                    <div class="row mt-3">
+                        <div class="col-lg-4">
+                            <div class="p-4 border rounded bg-dark">
+                                <p class="text-white">"Tripel Gym benar-benar mengubah gaya hidup saya! Fasilitasnya lengkap, dan pelatihnya sangat profesional."</p>
+                                <h5 class="fw-bold mt-3 text-warning">- Rian Saputra</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="p-4 border rounded bg-dark">
+                                <p class="text-white">"Sejak bergabung di sini, stamina dan kebugaran saya meningkat pesat. Komunitasnya juga sangat suportif!"</p>
+                                <h5 class="fw-bold mt-3 text-warning">- Siti Marlina</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="p-4 border rounded bg-dark">
+                                <p class="text-white">"Pelatih pribadinya sangat membantu saya mencapai target berat badan ideal dengan program yang efektif."</p>
+                                <h5 class="fw-bold mt-3 text-warning">- Daniel Pratama</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-4">
+                            <div class="p-4 border rounded bg-dark">
+                                <p class="text-white">"Suasana gym yang nyaman dan modern membuat saya semakin termotivasi untuk rutin berolahraga."</p>
+                                <h5 class="fw-bold mt-3 text-warning">- Anisa Rahmadani</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-4">
+                            <div class="p-4 border rounded bg-dark">
+                                <p class="text-white">"Tripel Gym memberikan pengalaman fitness yang luar biasa. Saya merasa lebih sehat dan percaya diri!"</p>
+                                <h5 class="fw-bold mt-3 text-warning">- Bayu Nugroho</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>           
+            </section>
+        <!-- ***** Testimonials End ***** -->
+    <!-- ***** Trainer Start ***** -->
+    <section class="section" id="trainers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2 class="text-white">Expert_<em>Trainer</em></h2>
+                        <img src="assets/images/line-dec.png" alt="">
+                        <p class="text-white">Trainer akan memberikan bimbingan eksklusif dan program latihan yang disesuaikan dengan kebutuhan individu. Dengan pendekatan one-on-one, trainer membantu mencapai target kebugaran secara optimal melalui teknik yang tepat, motivasi berkelanjutan, serta pemantauan perkembangan secara intensif.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/first-trainer.jpg" alt="">
+                        </div>
+                        <div class="down-content text-center"> <!-- Tambahkan text-center agar konten dalamnya rata tengah -->
+                            <span class="text-dark">_General Trainer_</span>
+                            <h4>Bang Bagus</h4>
+                            <p class="text-black">Saya adalah pelatih Tripel gym yang dapat melatih banyak orang sendirian dengan disiplin tinggi, konsisten, dan efisien dalam mengelola waktu serta memberikan perhatian penuh untuk mencapai tujuan kebugaran peserta.</p>
+                            <p class="text-black">Follow Me:</p>
+                            <ul class="social-icons d-flex justify-content-center">
+                                <li><a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-tiktok fa-2x"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Trainer End ***** -->
+    
+    <!-- ***** Contact Us Area Starts ***** -->
+    <section class="section pt-5" id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2 class="text-white mb-4">Informasi_<em>Kontak</em></h2>
+                            <p class=" text-white">
+                                <i class="fa-solid fa-location-dot"></i> 
+                                 Jl. Belut utama Expo Waena, Jayapura
+                            </p>
+                            <p class="text-white">
+                                <i class="fa-solid fa-clock"></i> 
+                                Senin - Sabtu: 08:00 - 21:00 WIT
+                            </p>
+                            <p class="text-white">
+                                <i class="fa-solid fa-envelope"></i> 
+                                <a href="mailto:triplemgym@gmail.com">triplemgym@gmail.com</a>
+                            </p>
+                            <p  class="mb-4 text-white">
+                                <i class="fa-solid fa-phone"></i> 
+                                <a href="tel:++6282199731441">+6282199731441</a>
+                            </p>
+                            <h4 class="text-white mb-4">Ikuti Kami</h4>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/profile.php?id=61574697869782" target="_blank">
+                                    <i class="fab fa-facebook fa-2x"></i>
+                                </a>
+                                <a href="https://www.instagram.com/triplemgym_waena?igsh=MWFmamFoYTA1MnZtYQ==" target="_blank">
+                                    <i class="fab fa-instagram fa-2x"></i>
+                                </a>
+                                <a href="https://www.tiktok.com/@tripelmgymwaena?is_from_webapp=1&sender_device=pc" target="_blank"><i class="fab fa-tiktok fa-2x"></i></a>
+                            </div>
+    
+                            <!-- Tombol tambahan -->
+                            <div class="mt-4">
+                                <a href="https://wa.me/6282199731441" target="_blank" class="btn btn-success">
+                                    <i class="fa-brands fa-whatsapp"></i> Hubungi Kami
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+                <!-- Bagian Google Maps (Full Lebar di Bawah) -->
+                <div class="col-12">
+                    <div id="map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d996.4304976622414!2d140.628532269529!3d-2.596543999836331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMsKwMzUnNDcuNiJTIDE0MMKwMzcnNDUuMCJF!5e0!3m2!1sen!2sid!4v1743078777117!5m2!1sen!2sid"
+                            width="100%" 
+                            height="450" 
+                            style="border:0; display: block; margin: auto;" 
+                            allowfullscreen 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            frameborder="0" 
+                            title="Peta Lokasi Triple Gym">
+                        </iframe>
+
+                    </div>
+                </div> 
+    </section>
+    <!-- ***** Contact Us Area Ends ***** -->
+    <!-- footer start -->
+    <footer class="bg-black text-light py-4">
+        <div class="container">
+            <div class="row text-center text-md-start align-items-center">
+                <!-- About Us -->
+                <div class="col-md-3 mb-3">
+                    <h5 class="mb-3 text-warning">About Us</h5>
+                    <p class="text-white">Tripel M Gym hadir untuk membantu Anda mencapai kebugaran optimal, dengan program latihan terbaik dan fasilitas lengkap.</p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="col-md-3 mb-3">
+                    <h5 class="mb-3 text-warning">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#top" class="text-white">Home</a></li>
+                        <li><a href="#about" class="text-white">About</a></li>
+                        <li><a href="#our-programs" class="text-white">Our Programs</a></li>
+                        <li><a href="#testimonials" class="text-white">Testimonials</a></li>
+                        <li><a href="#trainers" class="text-white">Trainer</a></li>
+                        <li><a href="#contact-us" class="text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Information -->
+                <div class="col-md-3 mb-3">
+                    <h5 class="mb-3 text-warning">Contact Us</h5>
+                    <p class="text-white">📍 Jl. Belut utama Expo Waean, Jayapura</p>
+                    <p class="text-white">📞 +62821-9973-1441</p>
+                    <p class="text-white">📧triplemgym@gmail.com</p>
+                </div>
+                
+                <!-- Social Media Links -->
+                <div class="col-md-3 mb-3 text-center text-md-start">
+                    <h5 class="mb-3 text-warning">Follow Us</h5>
+                    <div class="d-flex flex-column gap-2">
+                        <a href="https://www.facebook.com/profile.php?id=61574697869782" class="text-light" target="_blank"><i class="fab fa-facebook fa-1x"></i> Facebook</a>
+                        <a href="https://www.instagram.com/triplemgym_waena?igsh=MWFmamFoYTA1MnZtYQ==" class="text-light" target="_blank"><i class="fab fa-instagram fa-1x"></i> Instagram</a>
+                        <a href="https://www.tiktok.com/@tripelmgymwaena?is_from_webapp=1&sender_device=pc#" class="text-light" target="_blank"><i class="fab fa-tiktok fa-1x"></i> Tiktok</a>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="disclaimer.html" target="_blank">
+                        <i class="fa fa-exclamation-triangle"></i> Disclaimer & Privacy
+                    </a>
+                </div>                
+            </div>
+            <hr class="bg-warning">
+            <div class="text-center">
+                <p class="mb-0 text-light">© 2025 Tripel M Gym. Designed & Developed by Deni Wenda. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap & FontAwesome -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+      
+
+            <!-- jQuery -->
+            <script src="assets/js/jquery-2.1.0.min.js"></script>
+        
+            <!-- Bootstrap -->
+            <script src="assets/js/popper.js"></script>
+            <script src="assets/js/bootstrap.min.js"></script>
+        
+            <!-- Plugins -->
+            <script src="assets/js/scrollreveal.min.js"></script>
+            <script src="assets/js/waypoints.min.js"></script>
+            <script src="assets/js/jquery.counterup.min.js"></script>
+            <script src="assets/js/imgfix.min.js"></script> 
+            <script src="assets/js/mixitup.js"></script> 
+            <script src="assets/js/accordions.js"></script>
+            
+            <!-- Global Init -->
+            <script src="assets/js/custom.js"></script>
+            </div>
+        </section>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              const menuTrigger = document.querySelector(".menu-trigger");
+              const navMenu = document.querySelector(".nav");
+          
+              menuTrigger.addEventListener("click", function () {
+                navMenu.classList.toggle("show");
+              });
+            });
+          </script>   
+          
+          <script>
+            var carousels = document.querySelectorAll('.carousel');
+            carousels.forEach(carousel => {
+                new bootstrap.Carousel(carousel, {
+                    interval: 3000, /* Gambar berganti setiap 3 detik */
+                    wrap: true
+                });
+            });
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                let carousels = document.querySelectorAll('.carousel');
+                carousels.forEach(carousel => {
+                    new bootstrap.Carousel(carousel, {
+                        interval: 3000,
+                        ride: 'carousel'
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>
